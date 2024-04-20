@@ -1,1 +1,0 @@
-Program Penghitung Kalori Aktivitas Sehari-hari: Menentukan Jumlah Kalori yang Terbakar Berdasarkan Aktivitas Fisik, Durasi, dan Berat Badan Pengguna
