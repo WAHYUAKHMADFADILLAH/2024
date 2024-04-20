@@ -24,7 +24,7 @@ def cari_prima_dibawah(batas):
 batas = 50
 print(f"Bilangan prima yang kurang dari {batas}:")
 print(cari_prima_dibawah(batas))
-
+print(f'selesai')
 #loremipsum
 
 
@@ -34,5 +34,5 @@ print(cari_prima_dibawah(batas))
 #     print("Halo,", nama)
 
 # # Memanggil fungsi
-# sapa("Andi")
+# sapa("w")
 # sapa('putra')
