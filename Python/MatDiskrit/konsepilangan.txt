@@ -1,0 +1,7 @@
+Konsep bilangan 
+adalah cara kita menggambarkan dan mengelompokkan jumlah.
+Ini mencakup berbagai jenis bilangan seperti:
+bilangan bulat,rasional,irasional,real,dankompleks,
+serta operasi matematika dasar seperti:
+penjumlahan,pengurangan,perkalian,dan pembagian.
+Konsep ini membentuk dasar matematika yang digunakan dalam banyak bidang.
