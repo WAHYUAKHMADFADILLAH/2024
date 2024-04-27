@@ -16,5 +16,5 @@ while True :
     print('salah')
   percobaan += 1
   print(percobaan)
-  exit()
+exit()
 
