@@ -5,3 +5,4 @@ bilangan bulat,rasional,irasional,real,dankompleks,
 serta operasi matematika dasar seperti:
 penjumlahan,pengurangan,perkalian,dan pembagian.
 Konsep ini membentuk dasar matematika yang digunakan dalam banyak bidang.
+nim = 23090118 23090117,23090116,23090115,23090114,kemudian lakukan perubahan pada 3 huruf terakhir di ganti dengan angka bebas.gunakan code python
