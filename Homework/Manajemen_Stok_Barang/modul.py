@@ -1,14 +1,14 @@
 database = {}
 
 def add():
-    name = input("Enter name: ")
-    age = input("Enter age: ")
+    name = input("Enter the item name : ")
+    age = input("Enter amount : ")
     database[name] = age
     print(f"Data {name} telah ditambahkan")
     print(database)
 
 def delete():
-    name = input("Enter name: ")
+    name = input("Enter the item name : ")
     if name in database:
         del database[name]
         print(f"Data {name} telah dihapus")
@@ -18,7 +18,7 @@ def delete():
         print(database)
 
 def search():
-    name = input("Enter name: ")
+    name = input("Enter the item name : ")
     if name in database:
         print(f"Data {name} ditemukan")
         print(database)
@@ -27,9 +27,9 @@ def search():
         print(database)
 
 def update():
-    name = input("Enter name: ")
+    name = input("Enter the item name : ")
     if name in database:
-        age = input("Enter age: ")
+        age = input("Enter amount : ")
         database[name] = age
         print(f"Data {name} telah diupdate")
         print(database)
