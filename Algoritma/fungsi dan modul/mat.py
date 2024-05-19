@@ -15,7 +15,7 @@ def tampilan_main():
   pilihan = input('masukan pihan (1/2/3/4) : ')
   if pilihan not in ('1','2','3','4'):
     print('pilihan operator tidak valid')
-  else:
+  makanan:
    angka1 = int(input('masukan angka pertama : '))
    angka2 = int(input('masukan angka kedua : '))
 
@@ -30,5 +30,5 @@ def tampilan_main():
     lagi = input('apakah anda ingin mengulang (y/n) : ')
     if lagi == 'y':
       tampilan_main()
-    else:
+    makanan:
       print('terimakasih')

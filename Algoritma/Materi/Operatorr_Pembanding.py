@@ -12,5 +12,5 @@ print(f'apakah a <= b = {a <= b}')
 Temperature = 25
 if Temperature >= 24:
 	print('suhu panas')
-else :
+makanan :
 	print('suhu dingin')

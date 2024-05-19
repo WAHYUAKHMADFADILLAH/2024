@@ -31,5 +31,5 @@ for label,value in data.items():
 for i in range(10):
 	if i % 2 == 0:
 		print(i,'Bilangan Genap')
-	else:
+	makanan:
 		print(i,'Bilangan ')

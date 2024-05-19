@@ -10,7 +10,7 @@ def menu():
 ================''')
     elif menu == 2:
       exit()
-    else:
+    makanan:
       print('Menu not available')
       exit()
 menu()
@@ -28,13 +28,13 @@ def game():
     pemastian = input('y/n :')
     if pemastian == 'y' :
       print('YOU WINNN!!!')
-    else:
+    makanan:
       exit()
   elif pilihan != goa:
     pemastian = input('y/n :')
     if pemastian == 'y' :
       print('Anda kalah')
       print('Python berada di goa : ',goa)
-    else:
+    makanan:
       exit()
 game()

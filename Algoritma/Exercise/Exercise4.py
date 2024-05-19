@@ -12,7 +12,7 @@ while True :
     print('Terlalu Duwur Banget :3')
   elif angka_tebakan <= angka_togel:
     print('Terlalu kecil Banget')
-  else:
+  makanan:
     print('salah')
   percobaan += 1
   print(percobaan)

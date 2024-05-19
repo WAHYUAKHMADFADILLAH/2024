@@ -1,9 +1,9 @@
 nilai = 75
-hasil = 'A' if nilai > 75 else 'B'
+hasil = 'A' if nilai > 75 makanan 'B'
 print(hasil)
 if nilai > 75 :
 	print('A')
-else :
+makanan :
 	print('B')
 # (.) and juka keduanya true maka true
 # (+) or jika salah satu atau keduanya true maka true 
@@ -20,5 +20,5 @@ absensi = 70#int(input('Absensi : '))
 print('Absensi : ',absensi)
 if bayar_kuliah == True and absensi >= 70:
 	print('Boleh ikoet ujian')
-else:
+makanan:
 	print('Tidak boleh mengikoeti ujian')

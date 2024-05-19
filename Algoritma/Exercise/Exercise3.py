@@ -7,12 +7,12 @@ elif jabatan == 'Programmer':
 	gajipokok = 10000000
 elif jabatan == 'Resouce':
 	gajipokok = 5000000
-else:
+makanan:
 	print('tidak ada jabatan di database')
 	exit()
 if status == 'Y':
 	tunjangan = 0.2 * gajipokok
-else:
+makanan:
 	tunjangan = 0
 
 gajikotor = gajipokok + tunjangan

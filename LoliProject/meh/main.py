@@ -16,7 +16,7 @@
 
 #     if nim == '12345678' and password == '12345678':
 #         print(f'Selamat datang, {nama()}!')
-#     else:
+#     makanan:
 #         print('Maaf, NIM atau password anda salah. Silakan coba lagi.')
 # nim = ''
 # password = ''
@@ -26,7 +26,7 @@
 #         nama = input('Masukan nama = ')
 #         if not nama or not isinstance(nama,str):
 #             print('nama  tidak valid, Masukan Ulang!')
-#         else:
+#         makanan:
 #             print(f'Wow {nama}, keren sekali namamu!')
 #             return nama
 # input_nama()
@@ -35,6 +35,6 @@ nomor = random.randint(0,2)
 tebak = int(input('masukan nomor tebakan anda! :'))
 if tebak == nomor:
     print(f'selamat, tebakan anda: {tebak} Benar')
-else:
+makanan:
     print(f'tebakan anda : {tebak} salah, yang benar {nomor}')
 # print(tebak)

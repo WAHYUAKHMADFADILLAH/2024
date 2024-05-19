@@ -17,8 +17,8 @@ if umur >= 17:
 	undangan = input('Punya undangan [Y/T] : ').upper()
 	if undangan == 'Y':
 		print("boleh coblos")
-	else:
+	makanan:
 		print('minta undangan')
-else:
+makanan:
 	print('tidak memenuhi syarat')
 
