@@ -1,3 +1,4 @@
+
 database = {}
 def add():
     name = input("Masukan Nama Barang : ")
@@ -36,12 +37,11 @@ def search():
         search( )
 def jumdatabase():
     print('jumlah Data :' ,len(database))
-    print('Data : ',database)
 def show():
     print('Data : ',database)
 def MSB():
     while True:
-        print("========================================")
+        print("=====================================================")
         print("Menu : ")
         print("1. Tambah Data")
         print("2. Hapus Data")
@@ -50,9 +50,9 @@ def MSB():
         print("5. Tampilkan Jumlah Data")
         print("6. Tampilkan Data")
         print("7. Keluar")
-        print("========================================")
+        print("=====================================================")
         pilihan = int(input("Masukan pilihan: "))
-        print("========================================")
+        print("=====================================================")
         if pilihan == 1:
             add()
         elif pilihan == 2:
@@ -69,8 +69,15 @@ def MSB():
             yakin = input('apakah yakin ingin keluar [y/n] :')
             if yakin == 'y':
                 print("""
-                      Terimakasih telah menggunakan program ini
-                      Sampai Jumpa lain waktu!!
+ 
+ ====================================================  
+ | |_ _ __(_)_ __ ___   __ _| | ____ _ ___(_) |__  
+ | __| '__| | '_ ` _ \ / _` | |/ / _` / __| | '_ \ 
+ | |_| |  | | | | | | | (_| |   < (_| \__ \ | | | |
+  \__|_|  |_|_| |_| |_|\__,_|_|\_\__,_|___/_|_| |_|
+=====================================================                                                   
+              Sampai Jumpa lain waktu!!
+=====================================================                      
                       """)
                 exit()
             elif yakin == 'n':
@@ -78,6 +85,7 @@ def MSB():
 
 def login():
     print('''
+=====================================================          
    __  ___                    _                               
   /  |/  /___ _ ___  ___ _   (_)___  __ _  ___  ___           
  / /|_/ // _ `// _ \/ _ `/  / // -_)/  ' \/ -_)/ _ \          
@@ -86,9 +94,11 @@ def login():
   / __// /_ ___   / /__  / _ ) ___ _ ____ ___ _ ___  ___ _ / /
  _\ \ / __// _ \ /  '_/ / _  |/ _ `// __// _ `// _ \/ _ `//_/ 
 /___/ \__/ \___//_/\_\ /____/ \_,_//_/   \_,_//_//_/\_, /(_)  
-                                                   /___/      
+                                                   /___/    
+=====================================================
+       Selamat Datang di Manajemen Stok Barang!
+=====================================================          
 ''')
-    print("Selamat Datang di Manajemen Stok Barang")
     login = input('ingin masuk ke Manajemen stok barang? [y/n] : ')
     if login == 'y':
         MSB()
