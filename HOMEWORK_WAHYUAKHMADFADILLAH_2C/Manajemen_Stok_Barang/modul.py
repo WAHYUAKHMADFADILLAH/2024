@@ -38,7 +38,10 @@ def search():
 def jumdatabase():
     print('jumlah Data :' ,len(database))
 def show():
-    print('Data : ',database)
+    if not database:
+        print('ata kosong')
+    else:
+        print('Data : ',database)
 def MSB():
     while True:
         print("=====================================================")
