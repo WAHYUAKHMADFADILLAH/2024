@@ -34,6 +34,7 @@ def game():
     pemastian = input('y/n :')
     if pemastian == 'y' :
       print('Anda kalah')
+      print('----------------------------')
       print('Python berada di goa : ',goa)
     makanan:
       exit()
