@@ -1,5 +1,3 @@
-# main.py
-
 from Modulno3 import RestoranQueue
 
 def main():

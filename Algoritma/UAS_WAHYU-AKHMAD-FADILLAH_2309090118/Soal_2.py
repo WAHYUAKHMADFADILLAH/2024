@@ -1,7 +1,3 @@
-# saya memiliki data yaitu . nama =  mahasiswa 1 yang nilai algoritma dan struktur data 2 adalah 90 dan matematika numeriknya 80
-# dan nama =  mahasiswa 2 yang nilai algoritma dan struktur data 2 adalah 50 dan matematika numeriknya 60
-# dan nama =  mahasiswa 3 yang nilai algoritma dan struktur data 2 adalah 65 dan matematika numeriknya 70
-# buatlah sebuah array 2 dimensi yang berisi data pada tabel diatas dalam bentuk dataframe lalu, buatlah sebuah program python untuk melakukan operasi berikut: 1. Tampilkan rata rata nilai untuk setiap mata kuliah, 2. Tampilkan rata rata nilai untuk setiap mahasiswa
 import pandas as pd
 data = [
     ['Mahasiswa 1', 90, 80],
